@@ -1,0 +1,18 @@
+body { background-color:#f5f7f9; color:#333; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+.header { background:linear-gradient(135deg,#1e88e5,#0d47a1); color:#fff; padding:20px 0; margin-bottom:30px; border-radius:0 0 10px 10px; box-shadow:0 4px 12px rgba(0,0,0,.1); }
+.card { border-radius:10px; box-shadow:0 6px 15px rgba(0,0,0,.08); margin-bottom:25px; border:0; }
+.card-header { background:linear-gradient(135deg,#42a5f5,#1976d2); color:#fff; border-radius:10px 10px 0 0 !important; padding:15px 20px; font-weight:600; }
+.calculated-field { background-color:#e8f5e9; font-weight:600; }
+.btn-primary { background:linear-gradient(135deg,#42a5f5,#1976d2); border:0; padding:10px 20px; font-weight:600; }
+.btn-primary:hover { background:linear-gradient(135deg,#1976d2,#1565c0); transform:translateY(-2px); box-shadow:0 4px 8px rgba(0,0,0,.1); }
+.checkbox-group { display:flex; flex-wrap:wrap; gap:15px; }
+.checkbox-item { display:flex; align-items:center; background:#f1f8fe; padding:8px 15px; border-radius:20px; }
+.medicamento-table { width:100%; margin-bottom:15px; }
+.medicamento-table th { background-color:#bbdefb; }
+.action-buttons { display:flex; justify-content:flex-end; gap:10px; margin-top:20px; }
+.required-field::after { content:" *"; color:red; }
+.data-management { background-color:#e3f2fd; padding:15px; border-radius:10px; margin-bottom:20px; }
+.patient-list { max-height:200px; overflow-y:auto; margin-top:10px; }
+.patient-item { padding:8px 12px; border-bottom:1px solid #ddd; cursor:pointer; }
+.patient-item:hover { background-color:#e3f2fd; }
+.search-container { position:relative; }
