@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="export.php" method="POST">
+    <textarea name="payload" style="width:600px;height:200px;">
+{
+    "nombrePaciente": "Test",
+    "fecha": "2025-11-13",
+    "fechaIngreso": "2025-11-13",
+    "fechaNacimiento": "1990-01-01",
+    "hora": "10:00",
+    "diasHospitalizacion": "1",
+    "peso": "70",
+    "pesoIdeal": "72",
+    "medicoResponsable": "Dr. Prueba",
+    "diagnostico": "Diagnóstico test",
+    "ficha": "1234",
+    "cama": "Cama 1",
+    "edad": "35",
+    "medicamentos": [
+        {"medicamento": "Paracetamol", "dosis": "500", "unidad": "mg", "via": "VO", "intervalo": "8h"}
+    ]
+}
+    </textarea><br><br>
+    <button>Enviar POST</button>
+</form>
+</body>
+</html>
